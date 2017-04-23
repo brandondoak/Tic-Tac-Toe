@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="Formating.css">
+	<script src="Comp2.js"> </script>
+</head>
+<body>
+	<center>
+	<h1>Tic Tac Toe</h1>
+	<div>
+		<h2 id="playerOne"> User (X) Score=0 </h2> <h2 id="playerTwo"> Computer (O) Score=0 </h2> <h2 id="ties"> Ties=0 </h2>
+		<h2 id="Turn"> Turn: User </h2>
+	</div>
+	<table>
+	<tr class="table">
+		<td id="squareOne" class="Outer"  onclick="changeOne()">  </td>
+		<td id="squareTwo" class="Outer"  onclick="changeTwo()">  </td>
+		<td id="squareThree" class="Outer"  onclick="changeThree()">  </td>
+	</tr>
+	<tr class="table">
+		<td id="squareFour" class="Outer"  onclick="changeFour()">  </td>
+		<td id="squareFive"  class="Outer" onclick="changeFive()">  </td>
+		<td id="squareSix" class="Outer"  onclick="changeSix()">  </td>
+	</tr>
+	<tr class="table">
+		<td id="squareSeven" class="Outer"  onclick="changeSeven()">  </td>
+		<td id="squareEight" class="Outer"  onclick="changeEight()">  </td>
+		<td id="squareNine" class="Outer"  onclick="changeNine()">  </td>
+	</tr>
+	</table>
+	<div>
+	<button id="reset" onclick="restart()"> <h1> Click to Restart Game </h1> </button>
+	</div>
+	</center>
+</body>
+</html>
